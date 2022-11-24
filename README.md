@@ -1,4 +1,4 @@
-# react-modal-component
+# react-easy-modal
 
 ## Table of Contents
 
@@ -13,21 +13,21 @@
 To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):
 
 
-    $ npm install --save react-modal-component
-    $ yarn add react-modal-component
+    $ npm install --save react-easy-modal
+    $ yarn add react-easy-modal
     
 ## Usage
 
-Here is a simple example of react-modal-component being used in an app :
+Here is a simple example of react-easy-modal being used in an app :
 
 ```jsx
 import React, { useState } from "react";
-import ReactModal from "react-modal-component";
+import ReactEasyModal from "react-easy-modal";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
   return (
-    <ReactModal
+    <ReactEasyModal
       prefix="custom_modal"
       size="lg"
       centered
@@ -38,7 +38,7 @@ function App() {
       <div className={style.content}>
         <p>Inside modal !</p>
       </div>
-    </ReactModal>
+    </ReactEasyModal>
   );
 }
 
