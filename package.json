@@ -1,22 +1,23 @@
 {
-  "name": "react-easy-modal",
-  "description": "Easy to use modal",
-  "author": "Loïc Antoniak",
+  "name": "@loicantoniak/react-modal",
+  "description": "Simple react modal component",
+  "author": "loicantoniak",
   "version": "0.1.0",
   "files": [
     "dist",
     "README.md"
   ],
   "private": false,
+  "main": "dist/ReactModal.js", 
+  "module": "dist/ReactModal.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/loicantoniak/react-easy-modal"
+    "url": "https://github.com/loicantoniak/react-modal"
   },
   "keywords": [
     "react",
     "modal", 
     "react modal",
-    "react easy modal",
     "loicantoniak"
   ],
   "dependencies": {

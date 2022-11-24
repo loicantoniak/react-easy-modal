@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import ReactEasyModal from "./components/ReactEasyModal";
+import ReactModal from "./components/ReactModal";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
   return (
     <div>
       <button onClick={() => setShowModal(true)}>Click</button>
-      <ReactEasyModal show={showModal} onHide={() => setShowModal(false)}><p>Create !</p></ReactEasyModal>
+      <ReactModal show={showModal} onHide={() => setShowModal(false)}><p>Create !</p></ReactModal>
     </div>
   );
 }
