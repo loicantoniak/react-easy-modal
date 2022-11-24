@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactModal from "./components/ReactModal";
+import ReactModal from "@loicantoniak/react-modal";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
