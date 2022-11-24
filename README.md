@@ -4,6 +4,9 @@
 
 * [Usage](#usage)
 * [Examples](#examples)
+* [Options](#pptions)
+* [Author](#author)
+* [License](#license)
 
 ## Installation
 
