@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
+* [Installation](#installation)
 * [Usage](#usage)
-* [Examples](#examples)
-* [Options](#pptions)
+* [Options](#options)
 * [Author](#author)
 * [License](#license)
 
