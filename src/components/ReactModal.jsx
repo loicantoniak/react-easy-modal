@@ -3,6 +3,18 @@ import PropTypes from "prop-types";
 import { useCallback } from "react";
 import "./reactModal.css"
 
+/**
+ * Component to create a custom modal
+ * @param {show} bool Control modal state from parent component
+ * @param {onHide} function Handle modal closing. Should return true if you allow closing
+ * @param {prefix} string ClassName for custom modal component
+ * @param {size} string differents modal's sizes, possibilities : "xs", "sm", "md", "lg", "full"
+ * @param {centered} bool return true if you want the modal in the center of the window
+ * @param {header} jsx Modal heading
+ * @param {children} jsx Modal body
+ * @param {footer} jsx Place here your actions
+ * @returns 
+ */
 export default function ReactModal({
   show,
   onHide,

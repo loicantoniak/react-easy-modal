@@ -2,7 +2,7 @@
   "name": "@loicantoniak/react-modal",
   "description": "Simple react modal component",
   "author": "loicantoniak",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "files": [
     "dist",
     "README.md"

@@ -54,7 +54,7 @@ Control modal state from parent component
 
 return true if you want the modal in the center of the window
 
-#### size `boolean` (default: "md")
+#### size `string` (default: "md")
 
 differents modal's sizes, possibilities : "xs", "sm", "md", "lg", "full"
 
